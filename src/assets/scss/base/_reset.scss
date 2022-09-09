@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=MedievalSharp&family=Overpass:wght@500&family=Roboto&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;    
+}
+
+:is(body,h1,h2,h3,h4,h5,h6,p,ul,ol,li) {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s;;
+
+    &.dark__mode {
+        background-color: #1e00fd !important;
+        color: white !important;
+
+        .todo__container > .todo__card {
+            background-color: white !important;
+            color:#1e00fd !important;            
+            box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.7);
+        }       
+
+        header,footer {
+            background-color: white !important;
+            color: #1e00fd !important;
+
+            nav ul li a {
+                color: #1e00fd !important;
+                border: 2px solid #1e00fd;
+
+                &:hover {
+                    background-color: #1e00fd !important;
+                    color: white !important;
+                }
+            }
+        }
+        
+        .addtodo__container {
+            button {
+                background-color:white !important;
+                color: #1e00fd !important;
+
+                &:hover {
+                    background-color: darken(white,30%) !important;
+                    color: darken(#1e00fd, 50%) !important;
+                }
+            }
+        }
+
+        .loading {
+            color:white;
+        }
+
+        .login__form {
+            background-color:white !important;
+            color: #1e00fd !important;
+        }
+    }
+}
+
+:is(ol,ul) {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+

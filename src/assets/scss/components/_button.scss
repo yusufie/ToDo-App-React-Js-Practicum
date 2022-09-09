@@ -1,0 +1,61 @@
+
+
+.btn {
+    display:block;
+    background-color: #fd0000 ;
+    color:white;
+    border-color: transparent;
+    border-radius:10px;
+    padding:0.4rem 0.65rem;
+    cursor:pointer;
+    font-size:2rem;    
+    font-weight: 500;
+    box-shadow: 0px 0px 40px #0035a7;
+
+    &--success {
+        background-color:green;
+        color:white;
+    }
+
+    &--danger {
+        background-color:red;
+        color:white;
+    }
+
+    &:hover {
+        background-color: lighten(#008d2f, 10%);
+        color:white;
+        transform: scale(1.4);
+    }
+
+}
+
+.delete__button {
+    background:url(../../images/trashbin.svg);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    border:0;    
+    cursor: pointer;
+    padding: 15px; 
+    transition: transform .3s;
+    
+
+    &:hover {
+        transform: scale(2);
+    }
+}
+
+.edit__button {
+    background:url(../../images/edit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;        
+    border:0;    
+    cursor: pointer;
+    padding: 15px; 
+    transition: transform .3s;
+    
+
+    &:hover {
+        transform: scale(2);
+    }
+}

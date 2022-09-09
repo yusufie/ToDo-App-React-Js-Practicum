@@ -1,0 +1,21 @@
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.visible {
+    display:none;
+}
+
+.error {
+    color:red;
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+
+.z-index {
+    z-index: -10;
+}
+

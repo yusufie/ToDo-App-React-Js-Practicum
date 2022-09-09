@@ -1,0 +1,36 @@
+
+
+.loading__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    height:100vh;
+}
+
+.loading {
+    font-size:2rem;
+    font-weight:bold;
+    color: #00ff08;    
+}
+
+.error {
+    font-size:2rem;
+    font-weight:bold;
+    color: rgb(255, 0, 0);    
+}
+
+.addtodo__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5rem; 
+    
+    button {
+        padding: 40px 20px;
+        border-radius: 50%;
+        
+    }
+}
+

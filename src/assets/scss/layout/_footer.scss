@@ -1,0 +1,17 @@
+.icon_github {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 100px;
+    
+
+    &:hover {
+        
+        transform: scale(2);
+    }
+}
+
+    
